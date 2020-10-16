@@ -15,7 +15,11 @@
 значение флагов:
 
 если is_private = 1, is_group = 0, is_channel = 0 чат - это приватный чат
-если is_private = 0, is_group = 1, is_channel = 0 чат является нормальной группой
-если is_private = 0, is_group = 1, is_channel = 1 чат является группой ужина
-если is_private = 0, is_group = 0, is_channel = 1 чат является каналом
+
+если is_private = 0, is_group = 1, is_channel = 0 чат - является нормальной группой
+
+если is_private = 0, is_group = 1, is_channel = 1 чат - является группой ужина
+
+если is_private = 0, is_group = 0, is_channel = 1 чат - является каналом
+
 ____
