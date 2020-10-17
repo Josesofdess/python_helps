@@ -12,6 +12,9 @@ async def ss(event):
 	print("6 ",  event.message.media.photo.dc_id)
 	print("7 ",  event.message.media.photo.has_stickers)
 	print("8 ",  event.message.media.photo.video_sizes)
+
+	#https://core.telegram.org/type/PhotoSize - Telegram
+	#https://tl.telethon.dev/types/photo_size.html - Telethon
 	print("9 ",  event.message.media.photo.sizes[0])
 	print("10 ",  event.message.media.photo.sizes[0].type)
 	print("11 ", event.message.media.photo.sizes[0].bytes)
