@@ -1,4 +1,4 @@
-Разберем 
+данные **API/Constructors/Photo** делались с тестированием на фото. (многие методы мне не известны) если что-то будет известно о порядке методов напишите пожалуйста в [телеграм](https://t.me/freeze_python).
 
 ```python
 @client.on(events.NewMessage(func=lambda e: e.photo))
