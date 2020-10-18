@@ -1,8 +1,11 @@
 Ссылки на данные методы.
 - **https://core.telegram.org/constructor/message** 
 - **https://core.telegram.org/constructor/updateNewMessage**
+- **https://core.telegram.org/constructor/updateNewChannelMessage**
+
 - **https://tl.telethon.dev/constructors/message.html**
 - **https://tl.telethon.dev/constructors/update_new_message.html**
+- **https://tl.telethon.dev/constructors/update_new_channel_message.html**
 
 **event.original_update**
 
