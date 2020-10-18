@@ -1,3 +1,3 @@
 - **[event.original_update.md](https://github.com/Josesofdess/python_helps/blob/main/telethon/event.original_update.md)** - Сообщение без вложений
-- **[event.original_update_photo.md](https://github.com/Josesofdess/python_helps/blob/main/telethon/event.original_update_photo.md)** - Сообщение c фотографией 1 до 10шт в 1 сообщение
+- **[event.original_update_photo.md](https://github.com/Josesofdess/python_helps/blob/main/telethon/event.original_update_photo.md)** - Сообщение c фотографией 1 до 10шт
 - **[event.original_update_video.md](https://github.com/Josesofdess/python_helps/blob/main/telethon/event.original_update_video.md)** - Сообщение c Видео
