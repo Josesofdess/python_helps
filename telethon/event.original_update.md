@@ -1,3 +1,9 @@
+
+
+**event.original_update**
+
+
+**Для Приватных Чатов (ЛС)**
 Ссылки на данные методы.
 - **https://core.telegram.org/constructor/message** 
 - **https://core.telegram.org/constructor/updateNewMessage**
@@ -5,10 +11,15 @@
 - **https://tl.telethon.dev/constructors/message.html**
 - **https://tl.telethon.dev/constructors/update_new_message.html**
 
-**event.original_update**
+**Для Групповых Чатов (Канал)**
+Ссылки на данные методы.
+- **https://core.telegram.org/constructor/message** 
+- **https://core.telegram.org/constructor/updateNewChannelMessage**
 
+- **https://tl.telethon.dev/constructors/message.html**
+- **https://tl.telethon.dev/constructors/update_new_channel_message.html**
 
-**Для Приватных Чатов (ЛС)**
+# Для Приватных Чатов (ЛС)
 ```python
 from telethon import events
 @client.on(events.NewMessage)
@@ -42,16 +53,10 @@ async def ss(event):
 	print("25 ", event.original_update.message.edit_date)  #Дата последнего редактирования этого сообщения
 	print("26 ", event.original_update.message.post_author)  #Имя автора сообщения для сообщений на канале (с включенными подписями)
 	print("27 ", event.original_update.message.grouped_id)  #Несколько мультимедийных сообщений, отправленных с использованием messages.sendMultiMedia с одним и тем же сгруппированным идентификатором, указывают на альбом
-	print("28 ", event.original_update.message.restriction_reason)  # Содержит причину, по которой доступ к этому сообщению должен быть ограничен.```
+	print("28 ", event.original_update.message.restriction_reason)  # Содержит причину, по которой доступ к этому сообщению должен быть ограничен.
+```
 
-**Для Групповых Чатов (Канал)**
-Ссылки на данные методы.
-- **https://core.telegram.org/constructor/message** 
-- **https://core.telegram.org/constructor/updateNewChannelMessage**
-
-- **https://tl.telethon.dev/constructors/message.html**
-- **https://tl.telethon.dev/constructors/update_new_channel_message.html**
-
+# Для Приватных Чатов (ЛС)
 ```python
 from telethon import event
 @client.on(events.NewMessage)
@@ -85,5 +90,5 @@ async def ss(event):
 	print("25 ", event.original_update.message.edit_date)  #Дата последнего редактирования этого сообщения
 	print("26 ", event.original_update.message.post_author)  #Имя автора сообщения для сообщений на канале (с включенными подписями)
 	print("27 ", event.original_update.message.grouped_id)  #Несколько мультимедийных сообщений, отправленных с использованием messages.sendMultiMedia с одним и тем же сгруппированным идентификатором, указывают на альбом
-	print("28 ", event.original_update.message.restriction_reason)  # Содержит причину, по которой доступ к этому сообщению должен быть ограничен.```
+	print("28 ", event.original_update.message.restriction_reason)  # Содержит причину, по которой доступ к этому сообщению должен быть ограничен```
 
