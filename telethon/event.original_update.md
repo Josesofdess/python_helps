@@ -56,7 +56,7 @@ async def ss(event):
 	print("28 ", event.original_update.message.restriction_reason)  # Содержит причину, по которой доступ к этому сообщению должен быть ограничен.
 ```
 
-# Для Приватных Чатов (ЛС)
+# Для Групповых Чатов (Канал)
 ```python
 from telethon import event
 @client.on(events.NewMessage)
