@@ -10,7 +10,7 @@
 
 - **https://tl.telethon.dev/constructors/message.html**
 - **https://tl.telethon.dev/constructors/update_new_message.html**
-
+___
 **[Для Групповых Чатов (Канал)](https://github.com/Josesofdess/python_helps/blob/main/telethon/event.original_update.md#%D0%B4%D0%BB%D1%8F-%D0%BF%D1%80%D0%B8%D0%B2%D0%B0%D1%82%D0%BD%D1%8B%D1%85-%D1%87%D0%B0%D1%82%D0%BE%D0%B2-%D0%BB%D1%81)**
 Ссылки на данные методы.
 - **https://core.telegram.org/constructor/message** 
@@ -18,7 +18,7 @@
 
 - **https://tl.telethon.dev/constructors/message.html**
 - **https://tl.telethon.dev/constructors/update_new_channel_message.html**
-
+___
 # Для Приватных Чатов (ЛС)
 ```python
 from telethon import events
@@ -55,7 +55,7 @@ async def ss(event):
 	print("27 ", event.original_update.message.grouped_id)  #Несколько мультимедийных сообщений, отправленных с использованием messages.sendMultiMedia с одним и тем же сгруппированным идентификатором, указывают на альбом
 	print("28 ", event.original_update.message.restriction_reason)  # Содержит причину, по которой доступ к этому сообщению должен быть ограничен.
 ```
-
+___
 # Для Групповых Чатов (Канал)
 ```python
 from telethon import event
