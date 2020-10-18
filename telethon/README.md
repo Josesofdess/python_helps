@@ -1,0 +1,2 @@
+event.original_update.md - Сообщение без вложений
+event.original_update_photo.md - Сообщение c фотографией
